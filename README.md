@@ -48,13 +48,13 @@ Provides rapid and consistent styling with minimal CSS boilerplate.
 Ensures type safety and more maintainable, error-free code.
 
 ## 🧰 Tech Stack
-Category	-> Technology
-Framework	-> Next.js 15 (Canary)
-Language	-> TypeScript
-Styling	-> Tailwind CSS
-State Management ->	Zustand
-Data Source	-> Binance WebSocket API
-Deployment ->	Vercel
+> Category	-> Technology
+> Framework	-> Next.js 15 (Canary)
+> Language	-> TypeScript
+> Styling	-> Tailwind CSS
+> State Management ->	Zustand
+> Data Source	-> Binance WebSocket API
+> Deployment ->	Vercel
 
 ## ⚙️ Deployment (Vercel)
 
