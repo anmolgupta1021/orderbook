@@ -1,32 +1,25 @@
-# Real-Time Order Book Visualizer (Next.js 15 - Canary)
+# ⚡ Real-Time Order Book Visualizer (Next.js 15 - Canary)
 
-## Quick start
+A responsive, real-time order book and trade visualizer built with **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and **Zustand**.  
+It streams live market data from the **Binance WebSocket API**, showing continuously updating bids, asks, and recent trades.
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+---
 
-2. Run the dev server:
-   ```bash
-   npm run dev
-   ```
+## 🚀 Live Demo
 
-3. Open http://localhost:3000
+🔗 **[https://orderbook.vercel.app](https://orderbook.vercel.app)**
 
-## Notes
+---
 
-- This scaffold targets Next.js 15 canary with App Router. If you'd prefer Next.js 14 stable, edit package.json accordingly.
-- Tailwind is pre-configured via `tailwind.config.ts` and `globals.css`.
-- The app connects to Binance WebSocket combined streams (`aggTrade` and `depth`).
-- For a fully consistent local orderbook you may implement REST snapshot + sequence handling (see Binance docs).
+## 🧩 Quick Start
 
-## Files of interest
-- `src/hooks/useBinanceSocket.ts` - WebSocket hook, reconnection logic.
-- `src/lib/orderbook.ts` - aggregator helpers (Map-based).
-- `src/components/OrderBook.tsx` - order book UI.
-- `src/components/RecentTrades.tsx` - recent trades UI.
+### 1. Clone the repository
 
-## Deploy
-Deploy to Vercel for a live demo.
-
+```bash
+git clone https://github.com/anmolgupta1021/orderbook.git
+cd orderbook
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
